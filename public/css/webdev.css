@@ -1,0 +1,85 @@
+
+
+ /* ---- background particle animation  ---- */
+ #particles-js {
+     background-color: #333 ;
+     height: 86%;
+ }
+
+ .header-section h1.head-text {
+    top: 54%;
+    font-size: 2.8vw !important;
+    width: 50%;
+}
+
+.header-section .scroller {
+     width: 16px;
+     top: 82%;
+    animation: bounce 2s infinite ease-in-out;
+}
+
+.header-section p{
+     top: 38%;
+     opacity: 1 !important;
+     font-size: 1.4rem !important;
+ }
+.header-section .cta-btn{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -80%);
+    padding: 0.8em 2.4em;
+    font-size: 1em;
+    background: #FF497C;
+    border-radius: 50px;
+}
+.header-section .cta-btn:hover{
+    transition: all 0.3s ease;
+    border: 2px solid #FABD10;
+    background: transparent;
+}
+
+
+
+/* 2nd section */
+#welcome-section .heading{
+    width: 800px;
+    display: block;
+}
+#welcome-section .desc{
+    margin: 20px 0 6px;
+    opacity: .6;
+    line-height: 1.8em;
+    font-size: 1.15em;
+}
+.line{
+    width: fit-content;
+}
+@media (max-width:600px) {
+    #particles-js {
+        height: 70% !important;
+    }
+    .header-section h1.head-text {
+        top: 60% !important;
+        font-size: 7vw !important;
+        width: 90% !important;
+    }
+    .header-section p{
+        top: 40% !important;
+        font-size: 1rem !important;
+        width: fit-content !important;
+    }
+    .header-section .cta-btn{
+        top: 90% !important;
+        font-size: 1em;
+    }
+    /* 2nd section */
+    #welcome-section .heading{
+        width: 96%;
+        font-size: 6vw !important;
+    }
+
+    .dev-services img{
+        width: 30% !important;
+    }
+}
